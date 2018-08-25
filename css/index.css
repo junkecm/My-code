@@ -1,0 +1,442 @@
+*{
+			padding: 0;
+			margin: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		/*导航栏总大小*/
+		.site-topbar{
+			width: 100%;
+			height: 40px;
+			background-color: #333;
+		}
+
+		/*通天栏大小*/
+		.bar-banner{
+			width: 1226px;
+			height: 40px;
+			margin:0 auto;
+
+		}
+		/*导航栏大小*/
+		.topbar-nav{
+			float: left;
+			width: 526px;
+			height: 40px;
+
+		}
+		/*登录元素大小*/
+		.user_login{
+			width: 136px;
+			height: 40px;
+			float: right;
+		}
+		/*购物车大小*/
+		.cart{
+			float: right;
+			width: 120px;
+			height:40px;
+		}
+		/*设置导航栏中a标签的属性*/
+		.topbar-nav a{
+			font: 12px/40px "微软雅黑";
+			text-align: center;
+			margin-left: 5px;
+			color: #b0b0b0;
+		}
+		/*设置登录标签的属性*/
+		.user_login .link{
+			font: 12px/40px "微软雅黑";
+			text-align: center;
+			color: #b0b0b0;
+		}
+		/*设置消息通知标签的大小*/
+		.user_login .msg{
+			font: 12px/40px "微软雅黑";
+			text-align: center;
+			color: #b0b0b0;
+		}
+		/*设置购物车字体颜色*/
+		.cart .c-name{
+			font: 12px/40px "微软雅黑";
+			color: #b0b0b0;
+		}
+		/*设置头部搜索栏大小*/
+		.site-header{
+			width: 1226px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		/*设置头部导航栏大小*/
+		.header-nav {
+			width: 850px;
+			height: 100px;
+			float: left;
+		}
+		/*设置logo大小*/
+		.logo{
+			float: left;
+			width: 43px;
+			height:45px;
+			margin-top: 35px;
+			margin-left: -1px;
+		}
+		/*设置816活动图片属性*/
+		.header-nav .img_816{
+			float: left;
+			width: 163px;
+			height: 65px;
+			margin: 17px 17px ;
+		}
+		/*设置导航栏的大小*/
+		.nav-a{
+			float: left;
+			width: 600px;
+			height: 100px;
+			margin-left:10px;
+
+		}
+		/*设置导航栏下的a标签属性*/
+		.nav-a a{
+			font: 16px/100px "微软雅黑";
+			text-align: center;
+			color: #b0b0b0;
+			margin-left: 5px;
+		}
+		/*用户搜索栏大小*/
+		#u_search{
+			width: 223px;
+			height:48px;
+			padding: 0 10px;
+			border: 1px solid block;
+			text-align: center;
+			margin-top: 20px;
+		}
+		/*搜搜按钮大小*/
+		#search_btn{
+			height: 46px;
+			padding: 1px 6px;
+			border: 1px solid block;
+		}
+		.main_content{
+			width: 1226px;
+			margin: 0 auto;
+		}
+		.main_content ul{
+			height: 420px;
+			margin: 0 auto;
+			padding: 20px 0;
+			background: #b0b0b0;
+			position:absolute;
+			/* 设置背景透明 */
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+		.main_content ul li{
+			width:204px;
+			height: 42px;
+			color: white;
+			margin-left: 30px;
+		}
+		/*设置轮播图*/
+		.lunbo-pic .pic{
+			width: 1226px;
+			height: 460px;
+		}
+		.ad-list{
+			width: 1226px;
+			height: 170px;
+			margin: 10px auto;
+		}
+		.ad-list .ad-choice{
+			float: left;
+			padding: 3px;
+			width: 228px;
+			height: 164px;
+			background-color: #5f5750;
+		}
+		.ad-list .ad-choice div{
+			color: #b0b0b0;
+			float: left;
+			padding-top: 18px;
+			margin-top: 20px;
+			margin-left: 5px;
+			width: 70px;
+			height: 45.6px;
+		}
+		.ad-list .ad-ul ul {
+			float: left;
+			width: 992px;
+			height: 170px;
+		}
+		.ad-list .ad-ul ul li {
+			float: left;
+			margin-left: 14px;
+			width: 316px;
+			height: 170px;
+		}
+		/* 闪购 */
+		.fast-buy{
+			width: 1226px;
+			height: 340px;
+			margin: 0 auto;
+		}
+		/* 倒计时 */
+		.fast-buy .time{
+			float: left;
+			width: 234px;
+			height: 340px;
+		}
+		.fast-buy .time .time-img{
+			float: left;
+			border-top: 1px  solid red;
+			padding-top: 36px;
+		}
+		/* 闪购广告位 */
+		.fast-buy .commodity-list ul{
+			float: right;
+			height: 339px;
+			width: 992px;
+		}
+		.fast-buy .commodity-list ul li{
+			float: left;
+			width: 234px;
+			height: 339px;
+			margin-left: 14px;
+			border-top: 1px solid red;
+		}
+		/* 设置闪购图片参数 */
+		.fast-buy .commodity-list ul li a .a-img{
+			padding-top: 40px;
+			width: 160px;
+			height: 165.6px;
+			margin: 0 37px 22px;
+
+		}
+		/* 设置图片下面的首行文字属性 */
+		.fast-buy .commodity-list ul li a .title{
+			font: 14px/28px "微软雅黑";
+			text-align: center;
+			color: #212121;
+		}
+		.fast-buy .commodity-list ul li a .p-font{
+			font: 12px/24px "微软雅黑";
+			color: #b0b0b0;
+			text-align: center;
+		}
+		.fast-buy .commodity-list ul li a .price{
+			font: 12px/24px "微软雅黑";
+			color: #ff6709;
+			text-align: center;
+		}
+		.fast-buy .commodity-list ul li a .price .del{
+			font: 14px/28px "微软雅黑";
+			color: #b0b0b0;
+		}
+		/* 开始闪购文字 */
+		.h2-title{
+			width: 1226px;
+			height: 57.6px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.h2-title .h2-t{
+			font-size: 14px;
+			font-weight: 200;
+			line-height: 58px;
+			color: #333;
+		}
+		.h2-title .a-trun{
+			position: relative;
+			border: 1px solid gray;
+			width: 66px;
+			margin-left: 10px;
+			top: -30px;
+			left:  1150px;
+		}
+		.h2-title .a-trun ul li{
+			display: inline;
+			list-style: none;
+			margin-left: 12px;
+		}
+
+		/* 右边快速访问 */
+		.fast-visit{
+			width: 84px;
+			height: 380px;
+			position: fixed;
+			right: 0px;
+			top: 200px;
+
+		}
+		.fast-visit div{
+			width: 82px;
+			height: 90px;
+		}
+		.fast-visit div img.f-img{
+			padding-top: 20px;
+			margin-left: 27px;
+
+		}
+		.fast-visit div .f-p{
+			color: #757575;
+			font-size: 14px;
+			text-align: center;
+			margin: 8px 0 0 0;
+		}
+		/* 底部信息 */
+		.site-foot{
+			width: 1226px;
+			height: 272px;
+			/*background: gray;*/
+			margin: 0 auto;
+		}
+		.site-foot .foot-server{
+			width: 1226px;
+			height: 25px;
+			padding: 27px 0 27px 0;
+			border-bottom: 1px solid red;
+
+		}
+		.site-foot .foot-link{
+			float: left;
+			width: 1226px;
+			height: 192px;
+			/*background-color: green;*/
+		}
+		.site-foot .foot-server ul li{
+			float: left;
+			width: 242.74px;
+			height: 25px;
+			font-size: 16px;
+			line-height: 25px;
+			text-align: center;
+		}
+		.site-foot .foot-server ul li a{
+			font-size: 16px;
+			color: #616161;
+		}
+		/*外部连接信息*/
+		.site-foot .foot-link{
+			float: left;
+			width: 1226px;
+			height: 112px;
+			padding: 40px 0;
+		}
+		.site-foot .foot-link .mi-link .dl-title{
+			float: left;
+
+		}
+		.site-foot .foot-link .mi-link .dl-title dt{
+			width: 160px;
+			font-size: 14px;
+			margin-bottom: 26px;
+			color: #424242;
+
+		}
+		.site-foot .foot-link .mi-link .dl-title dd{
+			width: 160px;
+			font-size: 12px;
+			margin-top: 10px;
+			color: #757575;
+		}
+		/*底部400*/
+		.site-foot .conn-phone{
+			float: right;
+			border-left: 1px solid gray;
+			width: 251px;
+			height: 112px;
+		}
+		.site-foot .conn-phone .phone{
+			width: 251px;
+			height: 21.11px;
+			font-size: 22px;
+			margin-bottom: 5px;
+			text-align: center;
+			color: #ff6700;
+
+		}
+		.site-foot .conn-phone .server-time{
+			width: 251px;
+			height: 40px;
+			font-size: 12px;
+			margin-bottom: 16px;
+			text-align: center;
+			color: #616161;
+
+		}
+		.site-foot .conn-phone a{
+			float: left;
+			text-align: center;
+			border: 1px solid  #ff6700;
+			width: 118px;
+    		height: 28px;
+    		font-size: 12px;
+    		line-height: 28px;
+    		margin-left: 67px;
+		}
+		/*外链*/
+		.out-link{
+			position: relative;
+			width: 1226px;
+			height:106px;
+			padding: 30px 0;
+			margin: 0 auto;
+		}
+		.out-link .bt-logo{
+			float: left;
+			top: -20px;
+			left: 0;
+   			width: 57px;
+    		height: 57px;
+    		margin-right: 10px;
+		}
+		.out-link .site {
+			float: left;
+			width: 688px;
+			height: 19px;
+		}
+		.out-link .site a{
+			font-size: 12px;
+			color: #757575;
+
+		}
+		.out-link .beian{
+			width: 688.11px;
+			height: 36px;
+		}
+		.out-link .beian .beian-info{
+			font-size: 12px;
+			color: #b0b0b0;
+		}
+		.out-link .beian .beian-info a{
+			color: #b0b0b0;
+		}
+		.out-link .info-links{
+			float: right;    
+    		height: 28px;
+    		display: block;
+   			margin: -30px 0 0 0;
+		}
+
+		.out-link .info-links .links img{
+			width: 85px;
+		}
+		/*底部标语*/
+		.bottom-biaoyu{
+			width: 1226px;
+			height: 19px;
+			color: #b0b0b0;
+			margin: 0 auto;
+			text-align: center;
+
+		}
+		.bottom-biaoyu p{
+			width: 267px;
+			display: inline-block;
+			text-align: center;
+
+		}
